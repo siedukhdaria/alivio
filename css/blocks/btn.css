@@ -1,0 +1,41 @@
+.btn, a.btn{
+    display: inline-block;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    min-height: 51px;
+    line-height: 51px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: opacity 0.2s ease;
+    /*min-width: 120px;*/
+
+}
+.btn:hover, a.btn:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+.btn-big, a.btn-big{
+    min-height: 65px;
+    line-height: 65px;
+}
+
+.btn.btn-header {
+    min-width: 160px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+@media (max-width: 991px){
+    .btn, a.btn{
+        min-height: 41px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btn-big, a.btn-big{
+        min-height: 55px;
+    }
+}
