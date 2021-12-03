@@ -50,6 +50,28 @@
 .card ul li + li{
     margin-top: 20px;
 }
+@media(max-width: 1136px){
+    .card{
+        transform: scale(0.8);
+    }
+}
+@media(max-width: 991px){
+    .card{
+        max-width: 296px;
+        transform: none;
+
+    }
+}
+/*@media(max-width: 700px){*/
+/*    .card{*/
+/*        transform: scale(0.7);*/
+/*    }*/
+/*}*/
+/*@media(max-width: 426px){*/
+/*    .card{*/
+/*        transform: scale(0.6);*/
+/*    }*/
+/*}*/
 
 
 

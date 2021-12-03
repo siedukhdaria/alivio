@@ -39,22 +39,24 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.container-wide{
-    width: 1536px;
-}
-
 @media (max-width: 1399px) {
     .container {
         width: 100%;
     }
 }
-
+.container-wide{
+    width: 1536px;
+}
 @media (max-width: 1535px) {
     .container-wide {
         width: 100%;
     }
 }
 
-/*.no-scroll {*/
-/*    overflow: hidden;*/
-/*}*/
+
+
+
+
+.no-scroll {
+    overflow: hidden;
+}
