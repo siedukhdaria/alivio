@@ -17,7 +17,7 @@ const videoFile = document.querySelector('#video-story');
 
 videoBtn.addEventListener('click', function () {
     function toggleOverlay(event){
-        console.log('vent.type',event.type)
+
         if (event.type === 'mouseleave') {
             videoOverlay.classList.add('hidden');
         } else {
@@ -27,15 +27,12 @@ videoBtn.addEventListener('click', function () {
 
     if (videoFile.paused) {
         videoFile.play();
-        console.log('111 videoBtnIcon',videoBtnIcon)
         videoBtnIcon.src = './img/story/pause-white.png';
-
         videoOverlay.onmouseleave = toggleOverlay;
         videoOverlay.onmouseenter = toggleOverlay;
 
     } else {
         videoFile.pause();
-        console.log('videoBtnIcon',videoBtnIcon)
         videoBtnIcon.src = './img/story/play-white.svg';
         videoOverlay.onmouseleave = null;
         videoOverlay.onmouseenter = null;
