@@ -15,6 +15,7 @@ const videoBtnIcon = document.querySelector('#video-story-btn-icon');
 const videoOverlay = document.querySelector('#story-video-overlay');
 const videoFile = document.querySelector('#video-story');
 
+
 videoBtn.addEventListener('click', function () {
     function toggleOverlay(event){
 
